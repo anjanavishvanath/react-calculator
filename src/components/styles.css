@@ -1,0 +1,42 @@
+
+.display{
+    width: 400px;
+    height: 80px;
+    background-color: #222;
+    outline: 1px solid black;
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.calculator-buttons{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* Fix this */
+.span-four{
+    grid-column: 1 / -1;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    outline: 1px solid black;
+    background: #888;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator{
+    background-color: #fe9241;
+}
+
+.clear{
+    width: 400px;
+}
